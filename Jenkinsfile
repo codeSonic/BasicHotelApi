@@ -1,7 +1,7 @@
 pipeline{
 
 	agent {
-        docker { image 'mcr.microsoft.com/dotnet/core/sdk:2.1' }
+        docker { image 'jenkins/jnlp-slave' }
     }
 
 	stages{
