@@ -26,7 +26,6 @@ spec:
 			steps{
 			container('dynamicslave') {
 					echo "Building application"
-					sh 'dotnet --version'
 				}
 			}
 		}
