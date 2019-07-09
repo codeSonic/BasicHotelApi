@@ -1,19 +1,40 @@
 pipeline{
 
 	agent {
-        docker { image 'jenkins/jnlp-slave' }
+    kubernetes {
+      label 'dynamicslavek8s'
+      defaultContainer 'jnlp'
+      yaml """
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    podtype: jenkinsdynamimcslave
+spec:
+  containers:
+  - name: dynamicslave
+    image: jenkins/jnlp-slave
+    command:
+    - cat
+    tty: true
+"""
     }
+  }
 
 	stages{
 		stage('Build'){
 			steps{
-				echo "Building application"
-				sh 'dotnet --version'
+			container('dynamicslave') {
+					echo "Building application"
+					sh 'dotnet --version'
+				}
 			}
 		}
 		stage('Test'){
 			steps{
-				echo "Running test cases"
+			container('dynamicslave') {
+					echo "Running test cases"
+				}
 			}
 		}
 	}
