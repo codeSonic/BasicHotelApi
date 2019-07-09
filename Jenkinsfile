@@ -1,6 +1,8 @@
 pipeline{
 
-	agent { label 'master' }
+	agent {
+        docker { image 'mcr.microsoft.com/dotnet/core/sdk:2.1' }
+    }
 
 	stages{
 		stage('Build'){
