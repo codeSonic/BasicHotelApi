@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod                                            # 1
+metadata:
+  name: basichotelapi-pod2                           # 2
+  labels:
+    app: basichotelapi
+spec:                                                # 3
+  containers:
+    - image: basichotelapi-v1           			 # 4
+      name: basichotelapi-container                  # 5
+      imagePullPolicy: Never
+      ports:
+        - containerPort: 80                          # 6

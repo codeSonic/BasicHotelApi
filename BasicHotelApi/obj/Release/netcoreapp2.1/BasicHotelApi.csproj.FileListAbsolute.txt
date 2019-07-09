@@ -1,0 +1,17 @@
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\bin\Release\netcoreapp2.1\BasicHotelApi.deps.json
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\bin\Release\netcoreapp2.1\BasicHotelApi.runtimeconfig.json
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\bin\Release\netcoreapp2.1\BasicHotelApi.runtimeconfig.dev.json
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\bin\Release\netcoreapp2.1\BasicHotelApi.dll
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\bin\Release\netcoreapp2.1\BasicHotelApi.pdb
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\bin\Release\netcoreapp2.1\Hotel.Core.dll
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\bin\Release\netcoreapp2.1\Hotel.Core.pdb
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\obj\Release\netcoreapp2.1\BasicHotelApi.csprojAssemblyReference.cache
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\obj\Release\netcoreapp2.1\BasicHotelApi.csproj.CoreCompileInputs.cache
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\obj\Release\netcoreapp2.1\BasicHotelApi.RazorAssemblyInfo.cache
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\obj\Release\netcoreapp2.1\BasicHotelApi.RazorAssemblyInfo.cs
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\obj\Release\netcoreapp2.1\BasicHotelApi.AssemblyInfoInputs.cache
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\obj\Release\netcoreapp2.1\BasicHotelApi.AssemblyInfo.cs
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\obj\Release\netcoreapp2.1\BasicHotelApi.RazorTargetAssemblyInfo.cache
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\obj\Release\netcoreapp2.1\BasicHotelApi.csproj.CopyComplete
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\obj\Release\netcoreapp2.1\BasicHotelApi.dll
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\BasicHotelApi\obj\Release\netcoreapp2.1\BasicHotelApi.pdb

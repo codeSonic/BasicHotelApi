@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Deployment                                          # 1
+metadata:
+  name: basichotelapi
+spec:
+  replicas: 2                                             # 2
+  minReadySeconds: 15
+  strategy:
+    type: RollingUpdate                                   # 3
+    rollingUpdate: 
+      maxUnavailable: 1                                   # 4
+      maxSurge: 1                                         # 5
+  template:                                               # 6
+    metadata:
+      labels:
+        app: basichotelapi                                # 7
+    spec:
+      containers:
+        - image: basichotelapi-v1
+          imagePullPolicy: Never                          # 8
+          name: basichotelapi-container
+          ports:
+            - containerPort: 80

@@ -1,0 +1,9 @@
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\Hotel.Core\bin\Debug\netcoreapp2.1\Hotel.Core.deps.json
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\Hotel.Core\bin\Debug\netcoreapp2.1\Hotel.Core.dll
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\Hotel.Core\bin\Debug\netcoreapp2.1\Hotel.Core.pdb
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\Hotel.Core\obj\Debug\netcoreapp2.1\Hotel.Core.csproj.CoreCompileInputs.cache
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\Hotel.Core\obj\Debug\netcoreapp2.1\Hotel.Core.AssemblyInfoInputs.cache
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\Hotel.Core\obj\Debug\netcoreapp2.1\Hotel.Core.AssemblyInfo.cs
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\Hotel.Core\obj\Debug\netcoreapp2.1\Hotel.Core.dll
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\Hotel.Core\obj\Debug\netcoreapp2.1\Hotel.Core.pdb
+C:\_Data\Projects\Kubernetes Poc\basichotelapi-dotnet\BasicHotelApi\Hotel.Core\obj\Debug\netcoreapp2.1\Hotel.Core.csprojResolveAssemblyReference.cache
