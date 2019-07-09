@@ -1,18 +1,18 @@
 pipeline{
 
-agent { label 'master' }
+	agent { label 'master' }
 
-stages{
-	stage('Build'){
-		steps{
-			echo "Building application"
-			dotnet --version
+	stages{
+		stage('Build'){
+			steps{
+				echo "Building application"
+				sh 'dotnet --version'
+			}
+		}
+		stage('Test'){
+			steps{
+				echo "Running test cases"
+			}
 		}
 	}
-	stage('Test'){
-		steps{
-			echo "Running test cases"
-		}
-	}
-}
 }
