@@ -13,7 +13,7 @@ metadata:
 spec:
   containers:
   - name: dynamicslave
-    image: jenkins/jnlp-slave
+    image: mcr.microsoft.com/dotnet/core/sdk:2.1
     command:
     - cat
     tty: true
@@ -26,6 +26,7 @@ spec:
 			steps{
 			container('dynamicslave') {
 					echo "Building application"
+					sh 'dotnet --version'
 				}
 			}
 		}
