@@ -23,7 +23,7 @@ spec:
 	command:
 	- cat
 	tty: true
-			"""
+"""
 				}
 			}
 			steps{
@@ -53,7 +53,7 @@ spec:
 	command:
 	- cat
 	tty: true
-			"""
+"""
 				}
 			}
 			steps{
