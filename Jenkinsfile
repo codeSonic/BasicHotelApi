@@ -9,7 +9,7 @@ pipeline{
 				kubernetes {
 				  cloud 'kubernetes-local'
 				  label 'dynamicslavek8sdotnetbuild'
-				  defaultContainer 'jnlp'
+				  defaultContainer 'dynamicslavedotnetbuild'
 				  yaml """
 apiVersion: v1
 kind: Pod
@@ -29,9 +29,8 @@ spec:
 			steps{
 				
 				echo "Building application"
-				sh 'sleep 5m'
 				sh 'dotnet --version'
-				sh 'sleep 1m'			
+				sh 'sleep 1m'
 			}
 		}
 
@@ -40,7 +39,7 @@ spec:
 				kubernetes {
 				  cloud 'kubernetes-qa'
 				  label 'dynamicslavek8sdockerbuild'
-				  defaultContainer 'jnlp'
+				  defaultContainer 'dynamicslavedockerbuild'
 				  yaml """
 apiVersion: v1
 kind: Pod
