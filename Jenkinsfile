@@ -11,18 +11,18 @@ pipeline{
 				  label 'dynamicslavek8sdotnetbuild'
 				  defaultContainer 'jnlp'
 				  yaml """
-			apiVersion: v1
-			kind: Pod
-			metadata:
-			  labels:
-				podtype: jenkinsdynamimcslavedotnetbuild
-			spec:
-			  containers:
-			  - name: dynamicslavedotnetbuild
-				image: mcr.microsoft.com/dotnet/core/sdk:2.1
-				command:
-				- cat
-				tty: true
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+	podtype: jenkinsdynamimcslavedotnetbuild
+spec:
+  containers:
+  - name: dynamicslavedotnetbuild
+	image: mcr.microsoft.com/dotnet/core/sdk:2.1
+	command:
+	- cat
+	tty: true
 			"""
 				}
 			}
@@ -41,18 +41,18 @@ pipeline{
 				  label 'dynamicslavek8sdockerbuild'
 				  defaultContainer 'jnlp'
 				  yaml """
-			apiVersion: v1
-			kind: Pod
-			metadata:
-			  labels:
-				podtype: jenkinsdynamimcslavedockerbuild
-			spec:
-			  containers:
-			  - name: dynamicslavedockerbuild
-				image: docker
-				command:
-				- cat
-				tty: true
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+	podtype: jenkinsdynamimcslavedockerbuild
+spec:
+  containers:
+  - name: dynamicslavedockerbuild
+	image: docker
+	command:
+	- cat
+	tty: true
 			"""
 				}
 			}
