@@ -27,6 +27,7 @@ spec:
 			container('dynamicslave') {
 					echo "Building application"
 					sh 'dotnet --version'
+					sh 'sleep 10m'
 				}
 			}
 		}
