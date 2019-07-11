@@ -29,6 +29,7 @@ spec:
 			steps{
 				
 				echo "Building application"
+				sh 'sleep 5m'
 				sh 'dotnet --version'
 				sh 'sleep 1m'			
 			}
