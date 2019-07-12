@@ -7,7 +7,7 @@ pipeline{
 		
 			agent {
 				kubernetes {
-				  cloud 'kubernetes-local'
+				  cloud 'kubernetes-qa'
 				  label 'dynamicslavek8sdotnetbuild'
 				  defaultContainer 'dynamicslavedotnetbuild'
 				  yaml """
