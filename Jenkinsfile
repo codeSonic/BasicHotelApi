@@ -37,7 +37,7 @@ spec:
 		stage('Docker build image'){
 			agent {
 				kubernetes {
-				  cloud 'kubernetes-qa'
+				  cloud 'kubernetes-qatstg'
 				  label 'dynamicslavek8sdockerbuild'
 				  defaultContainer 'dynamicslavedockerbuild'
 				  yaml """
