@@ -30,7 +30,7 @@ spec:
 				
 				echo "Building application"
 				sh 'dotnet --version'
-				sh 'sleep 1m'
+				sh 'sleep 1'
 			}
 		}
 
