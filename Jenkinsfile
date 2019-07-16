@@ -58,7 +58,7 @@ spec:
 			}
 			steps{
 				sh 'docker --version'
-				sh 'sleep 10m'
+				sh 'sleep 1m'
 			}
 		}
 	}
