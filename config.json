@@ -2,7 +2,7 @@
 	"key1": "configvalue1",
 	"key2": "configvalue2",
 	"build": {
-		"projectFile": "\BasicHotelApi\BasicHotelApi.csproj"
+		"projectFile": "BasicHotelApi/BasicHotelApi.csproj"
 	},
 	"deploy":{
 		"containerCount": 2
