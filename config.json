@@ -1,0 +1,19 @@
+{
+	"key1": "configvalue1",
+	"key2": "configvalue2",
+	"build": {
+		"projectFile": "\BasicHotelApi\BasicHotelApi.csproj"
+	},
+	"deploy":{
+		"containerCount": 2
+	},
+	"perf": {
+		"scaling": {
+			"containerCount": 4,
+			"scaleupPolicy": {
+				"metric": "cpu",
+				"threshold": 65
+			}
+		}
+	}
+}
